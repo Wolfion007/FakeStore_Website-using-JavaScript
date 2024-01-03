@@ -1,0 +1,151 @@
+*{         /* universal selector*/
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+
+}
+
+#maincontainer{
+    width:100%;
+    height:100vh;
+   background-image: url("hexa.jpg");
+
+}
+.navbar{
+    width:100%;
+    height:9vh;
+    border:1px solid antiquewhite;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 20px;
+}
+.container{
+    height:91vh;
+    width:100%;
+    border:1px solid;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.logo{
+    font-size:larger;
+    font-weight:950;
+    color:crimson;
+
+}
+
+ul{
+    height:100%;
+    width:30%;
+    font-size:110%;
+    list-style-type:none;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    color:#eee;
+}
+
+.productContainer{
+    height :80%;
+    width:60%;
+    border:1px solid;
+    border-radius:10px;
+    background-color: rgb(131,130,130);
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+
+.productList{
+    height :80%;
+    width:20%;
+    border:1px solid;
+    border-radius:10px;
+    background-color: rgb(131,130,130);
+    overflow-y:auto;
+    display:flex;       /* this will bring side by side format but rectified later with wrap property*/
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;   /* used to bring the container one by one from the side to side format*/
+    
+}
+
+
+.productList::-webkit-scrollbar{
+    display:none;
+}
+
+.leftContainer{
+    height:90%;
+    width:60%;
+    border:1px solid;
+    border-radius:10px;
+    background-color: #eee;
+    display:flex;
+    align-content:space-evenly;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+.rightContainer{
+    height:90%;
+    width:35%;
+    border:1px solid;
+    border-radius:10px;
+    background-color: #eee;
+    padding: 50px 20px;
+}
+.card{
+    height:55vh;
+    width:90%;
+    border:1px solid;
+    margin-top: 10px;
+    background-color: #eee;
+    border-radius:8px;
+    display:flex;
+    align-content:space-evenly;
+    flex-wrap:wrap;
+    
+}
+.image{
+    height:200px;
+    width:200px;
+    padding:0 30px;
+
+}
+.title{
+    width:100%;
+    padding:0 20px;
+}
+
+.leftSideimage{
+
+    height:80%;
+    width:50%;
+    margin:0 70px;
+    margin-top:30px;
+    border:1px solid;
+    border-radius:10px;
+     display:flex;
+   align-content:center;
+   justify-content: center;
+}
+
+.leftSidetitle{
+    width:100%;
+    text-align:center;
+    flex-wrap: wrap; 
+    font-size:100%;
+
+}
+
+.title{
+    font-size:120%;
+    text-align:center;
+    font-weight:bold;
+
+}
